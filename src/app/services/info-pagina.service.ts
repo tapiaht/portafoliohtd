@@ -21,7 +21,7 @@ this.http.get('assets/data/data-pagina.json')
   // console.log( resp['email']);
   this.cargada=true;
   this.info=resp;
-  console.log(resp.nombre_corto);
+  // console.log(resp.nombre_corto);
    });
   }
  private cargarEquipo(){
@@ -30,7 +30,7 @@ this.http.get('https://angular-html-8ed23-default-rtdb.firebaseio.com/equipo.jso
 .subscribe ( (resp: any) => {
   // console.log( resp['email']);
   this.equipo=resp;
-  console.log(resp);
+  // console.log(resp);
    });
  }
 }
